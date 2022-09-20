@@ -1,0 +1,70 @@
+/* HERO*/
+
+@media (max-width: 425px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* ABOUT*/
+
+@media (max-width: 425px){
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    
+    .about .item {
+        text-align: center;
+    }
+
+    .about .item .btn-know-more{
+        align-self: center;
+    }
+}
+
+/* SERVICES*/
+
+@media (max-width: 425px){
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*PROJECTS */
+
+@media (max-width: 768px){
+    .projects{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 425px){
+    .projects{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+/* FOOTER*/
+
+@media (max-width: 425px){
+    .footer ul {
+        flex-direction: column;
+    }
+}
